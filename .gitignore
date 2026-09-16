@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+*.egg
+
+# Runtime artifacts
+logs/
+outputs/
+experiment_summary.json
+*.pkl
+
+# Checkpoints & weights
+checkpoints/*.pth
+checkpoints/*.pt
+weights/*.pth
+weights/*.pt
+
+# Data (large files)
+data/xes3g5m/train_valid_sequences.csv
+data/xes3g5m/test.csv
+data/assist2015/
+data/algebra2005/
+data/dbe_kt22/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environments
+.venv/
+venv/
+env/
